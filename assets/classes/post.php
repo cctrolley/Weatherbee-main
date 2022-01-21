@@ -180,24 +180,24 @@ class post {
 
 
                 $str .= "<div class='status_post' onClick='javascript:toggle$id()'>
-                    <div class='post-container'>
-                            <div class='post_profile_pic'>
-                                <img src='$profile_pic' class='post-pfp'>
-                            </div>
-                            <div class='posted_by'>
-                                <a class='post-username'> @$username </a> <br>
-                            <p class='time'>$time_message</p> 
-                            </div>
-                            </div>
-                            <div id='post_body' class='post-body'>
-                                $body
-                                <br>
-                                $imageDiv
-                                <br>
-                            </div>
-                            <div class='newsfeedoptions' >
-                            REPLIES: ($comments_check_num)
-                           
+                            <div class='post-container'>
+                                <div class='post_profile_pic'>
+                                    <img src='$profile_pic' class='post-pfp'>
+                                </div>
+                                <div class='posted_by'>
+                                    <a class='post-username'> @$username </a> <br>
+                                <p class='time'>$time_message</p> 
+                                </div>
+                                </div>
+                                <div id='post_body' class='post-body'>
+                                    $body
+                                    <br>
+                                    $imageDiv
+                                    <br>
+                                </div>
+                                <div class='newsfeedoptions' >
+                                REPLIES: ($comments_check_num)
+                            
                         </div>
                         <div class='likes-inline'>
                         <iframe src='likes.php?post_id=$id' id='likes-iframe' style='height:40px; width:20px; font-family:oxygen; margin-left: 10px;'></iframe> 

@@ -19,7 +19,7 @@ if(isset($_POST['post'])){
             $uploadOk = 0;
         }
 
-        if(strtolower($imageFileType) != "jpeg" && strtolower($imageFileType) != "png" && strtolower($imageFileType) != "jpg"){
+        if(strtolower($imageFileType) != "jpeg" && strtolower($imageFileType) != "png" && strtolower($imageFileType) != "jpg" && strtolower($imageFileType) != "gif"){
             $errorMessage = "sorry! only jpeg, jpg and png files are allowed :(";
             $uploadOk = 0;
         }
@@ -83,7 +83,7 @@ if(isset($_POST['post'])){
                 <textarea name="post_text" id="post_text" placeholder="What's the latest buzz?"></textarea>
                 <div class="sameline">
                 <input type="submit" name="post" id="post_button" class="post-btn" value="Buzz!">
-                <input type="file" name="fileToUpload" id="fileToUpload">
+                <input type="file" name="fileToUpload" id="fileToUpload" style='font-family: oxygen'>
                  </div>
             </form>
      
